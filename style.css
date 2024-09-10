@@ -1,8 +1,4 @@
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}  
+
 .bai-jamjuree-extralight {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 200;
@@ -74,7 +70,7 @@ footer p {
     font-weight: 700;
     font-style: italic;
   }
-  
+
   body {
     background-color: bisque;
     font-family: Bai Jamjuree;
