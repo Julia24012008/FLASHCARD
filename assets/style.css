@@ -119,8 +119,10 @@ footer p {
   font-size: 1vw;
 }
 
-
-
+body {
+  background: url('img/bg-desktop.webp');
+  font-family: Bai Jamjuree;
+}
 
 
 
