@@ -81,6 +81,15 @@ body {
   font-family: Bai Jamjuree;
 }
 
+body {
+  background: url('img/bg-desktop.webp');
+  font-family: Bai Jamjuree;
+}
+
+#container {
+  display: flex;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -94,11 +103,6 @@ footer p {
   text-align: center;
   font-size: 0.6rem;
   margin-top: 0.5rem;
-}
-
-
-#container {
-  display: flex;
 }
 
 .cartao {
@@ -129,16 +133,10 @@ footer p {
   backface-visibility: hidden;
 }
 
-
-
-body {
-  background: url('img/bg-desktop.webp');
-  font-family: Bai Jamjuree;
-}
-
 .cartao__conteudo p {
   margin-top: 1rem;
   padding: 2rem;
+  margin-top: 4rem;
 }
 
 .cartao__conteudo__pergunta p {
@@ -150,6 +148,23 @@ body {
   color: var(--card-back-color);
   font-weight: 700;
 }
+
+.cartao:hover .cartao__conteudo {
+  transform: rotateY(180deg);
+}
+
+.cartao__conteudo__pergunta,
+.cartao__conteudo__resposta {
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.cartao__conteudo__resposta {
+  transform: rotateY(180deg);
+}
+
 
 footer {
   background-color: black;
@@ -166,24 +181,4 @@ footer p {
   margin-top: 0.5rem;
 }
 
-.cartao:hover .cartao__conteudo {
-  transform: rotateY(180deg);
-}
 
-.cartao__conteudo__pergunta,
-.cartao__conteudo__resposta {
-    backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.cartao__conteudo__resposta {
-  transform: rotateY(180deg);
-}
-
-.cartao__conteudo p {
-  margin-top: 1rem;
-  padding: 2rem;
-  margin-top: 4rem;
-}
