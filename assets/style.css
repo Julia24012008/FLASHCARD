@@ -103,15 +103,16 @@ footer p {
 }
 
 .cartao__conteudo {
-  background-color: var(--card-front-color);
   text-align: center;
   height: 100%;
+  background-color: var(--card-front-color);
 }
 
 
 .cartao__conteudo h3 {
   color: var(--text-color);
   border: 1px solid var(--text-color);
+  text-align: left;
   padding: 0.5rem;
   position: absolute;
   margin: 0.6rem;
