@@ -92,6 +92,10 @@ body {
   flex-basis: calc(33% - 6rem);
 }
 
+.cartao:hover .cartao__conteudo {
+  transform: rotateY(180deg);
+}
+
 .cartao__conteudo {
   background-color: var(--card-front-color);
   text-align: center;
